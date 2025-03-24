@@ -1,16 +1,14 @@
-# Core dependencies
-streamlit==1.32.0
-opencv-python-headless==4.9.0.80  # Replaced opencv-python for cloud compatibility
-mediapipe==0.10.0
+# Core computer vision
+opencv-python-headless==4.9.0.80
+mediapipe==0.10.21  # Updated to latest available version
+
+# AI/ML dependencies
 google-generativeai==0.3.2
 numpy==1.26.4
+protobuf==4.25.6  # Specific version to avoid conflicts
+
+# Streamlit core
+streamlit==1.32.0
 
 # Supporting packages
-protobuf==4.25.6
 pillow==10.3.0
-matplotlib==3.8.0
-pandas==2.1.4
-
-# Python basics
-python-dateutil==2.8.2
-typing-extensions==4.8.0
